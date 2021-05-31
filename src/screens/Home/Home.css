@@ -1,0 +1,38 @@
+.home__header {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+h3 {
+  font-size: 30px;
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+
+.home__body {
+  height: fit-content;
+  min-height: 100vh;
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  padding: 0;
+}
+.home__projects {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+@media (max-width: 750px) {
+  h3 {
+    font-size: 25px;
+  }
+}

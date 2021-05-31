@@ -1,0 +1,78 @@
+.header__box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  left: -35px;
+  height: 83vh;
+  width: 100vw;
+  background: rgb(216, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+}
+
+.header__box__black {
+  height: 90vh;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  overflow: hidden;
+  box-shadow: 2px 5px 35px rgb(102, 101, 101);
+  width: 80vw;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__circle {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  /* border-radius: 0 0 10px 0; */
+  background: url("https://raw.githubusercontent.com/DevGautam2000/mycv.github.io/master/avatar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px;
+}
+
+.header__para {
+  padding: 35px;
+  padding-top: 0;
+  word-spacing: 2%;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2;
+  width: 40%;
+  height: 40%;
+  display: grid;
+  place-content: center;
+}
+
+@media (max-width: 750px) {
+  .header__box {
+    left: 0;
+  }
+  .header__box__black {
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header__para {
+    padding: 15px;
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: -20%;
+  }
+
+  .header__circle {
+    height: 200px;
+    width: 200px;
+  }
+}
