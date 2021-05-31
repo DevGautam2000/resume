@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import Pdf from "../../assets/cv.pdf";
 
 function Nav({ bg, text }) {
+  const onResumeClick = () => {
+    window.open(Pdf);
+  };
   return (
     <div className="nav__container" style={bg}>
       <Link to="/" className="nav__list">
@@ -15,9 +19,11 @@ function Nav({ bg, text }) {
         <li style={text}>Projects</li>
       </Link>
       <a
-        href="https://raw.github.com/DevGautam2000/resume/main/src/assets/cv.pdf"
+        href=" "
         className="nav__list"
-        target="_blank"
+        target="_blank "
+        onClick={onResumeClick}
+        rel="noreferrer"
       >
         <li style={text}>Resume</li>
       </a>

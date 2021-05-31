@@ -29,7 +29,12 @@ const Projects = () => {
 
             <p className="project__description">{description}</p>
 
-            <a href={source_code} className="project__overlay" target="_blank">
+            <a
+              href={source_code}
+              className="project__overlay"
+              rel="noreferrer"
+              target="_blank"
+            >
               <span>
                 source
                 <img id="project__src__img" src={source} alt="" />
@@ -39,6 +44,7 @@ const Projects = () => {
             <a
               href={source_code}
               className="project__sm_source"
+              rel="noreferrer"
               target="_blank"
             >
               <span>
