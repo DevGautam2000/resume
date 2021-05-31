@@ -14,9 +14,13 @@ function Nav({ bg, text }) {
       <Link to="/projects" className="nav__list">
         <li style={text}>Projects</li>
       </Link>
-      <Link to="/cv" className="nav__list" target="_blank">
+      <a
+        href="https://raw.github.com/DevGautam2000/resume/main/src/assets/cv.pdf"
+        className="nav__list"
+        target="_blank"
+      >
         <li style={text}>Resume</li>
-      </Link>
+      </a>
     </div>
   );
 }

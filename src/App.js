@@ -10,7 +10,6 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/projects" component={Projects} />
-        <Route path="/cv" component={CV} />
       </Switch>
     </main>
   );
