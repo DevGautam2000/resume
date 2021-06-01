@@ -3,6 +3,7 @@
   height: 100vh;
   width: 100vw;
   position: relative;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -22,17 +23,184 @@ h3 {
   background: white;
   padding: 0;
 }
-.home__projects {
-  background: black;
+.home__last {
+  background: white;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
+  margin-top: 20px;
+  height: fit-content;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.home__last footer {
+  position: absolute;
+  bottom: 12px;
+  color: black;
+  font-size: 14px;
+}
+
+.home__black__box {
+  background: black;
+  height: 70vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.home__contact__container {
+  background: white;
+  height: fit-content;
+  min-height: 40%;
+  min-width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 1px 0 2px rgb(71, 70, 70);
+  overflow: hidden;
+}
+
+.home__contact__box,
+.home__links__box {
+  margin: 15px;
+}
+.home__contact__box li,
+.home__links__box li {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.home__contact__box {
+  color: black;
+  height: 80%;
+  width: fit-content;
+  min-width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.home__links__box {
+  color: black;
+  padding: 10px;
+  height: 80%;
+  width: fit-content;
+  min-width: 40%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  place-content: center;
+  overflow: hidden;
+}
+
+li > img {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.home__links__box a {
+  padding: 10px;
+}
+
+.home__links__box a > img {
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.home__links__box a > img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1250px) {
+  .home__links__box a > img:hover {
+    transform: scale(1);
+  }
+
+  .home__links__box {
+    height: fit-content;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .home__contact__box span {
+    font-size: 14px;
+  }
+
+  .home__contact__container {
+    flex-direction: column;
+    width: 300px;
+  }
 }
 
 @media (max-width: 750px) {
   h3 {
     font-size: 25px;
+  }
+
+  .home__contact__box li,
+  .home__links__box li {
+    font-size: 5px;
+    margin: 5px;
+  }
+
+  .home__contact__container {
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+  }
+
+  .home__contact__box {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 350px;
+    width: 250px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .home__contact__box img,
+  .home__links__box a img {
+    height: 28px;
+    width: 28px;
+  }
+
+  .home__links__box {
+    height: 100px;
+    width: 250px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 320px) {
+    .home__contact__container {
+      flex-direction: column;
+      width: 40%;
+      height: 40%;
+    }
+
+    .home__links__box {
+      height: 100px;
+      width: 200px;
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 }

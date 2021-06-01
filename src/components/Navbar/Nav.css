@@ -7,6 +7,7 @@
   z-index: 10;
   padding: 10px 0;
   transition: all 0.8s ease;
+  overflow-x: hidden;
 }
 
 .nav__list {
