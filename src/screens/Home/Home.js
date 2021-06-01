@@ -68,7 +68,19 @@ const Home = () => {
               <img src={mobile} alt="" /> <span>7384716590</span>
             </li>
             <li>
-              <img src={mail} alt="" /> <span>devgautam1231@gmail.com</span>
+              <img src={mail} alt="" />{" "}
+              <span>
+                <a
+                  style={{
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    color: "black",
+                  }}
+                  href="mailto: devgautam1231@gmail.com"
+                >
+                  devgautam1231@gmail.com
+                </a>
+              </span>
             </li>
           </div>
           <div className="home__links__box">
