@@ -35,8 +35,6 @@ const Home = () => {
                 ? "rgba(255, 255, 255, 0.9)"
                 : bodyInView
                 ? "rgba(114, 111, 111, 0.9)"
-                : lastInView
-                ? "rgba(114, 111, 111, 0.9)"
                 : "transparent",
           }}
           text={{
