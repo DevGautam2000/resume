@@ -37,7 +37,7 @@ const projects = [
     description:
       "A web scraper made with BeautifulSoup and Selenium that scrapes a particular web site to collect public information and handle data collected.The scraper also handles and flushes errors.",
     tech_stacks: [python, selenium],
-    source_code: "https://github.com/DevGautam2000/gradeScraper",
+    source_code: "https://github.com/DevGautam2000/infoScraper",
   },
 ];
 
