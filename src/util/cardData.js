@@ -25,7 +25,7 @@ const cards = [
     id: 1,
     name: "Web Development",
     description:
-      "Web development is the work involved in developing a Web site for the Internet or an intranet.Web development can range from developing a simple single static page of plain text to complex Web-based Internet applications, electronic businesses,and social network services.",
+      "Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex Web-based Internet applications, electronic businesses,and social network services.",
     images: [html5, css3, javascript, react, mongodb, mysql, git, golang],
   },
   {
@@ -60,7 +60,7 @@ const cards = [
     id: 6,
     name: "UI/UX",
     description:
-      "One of the most demanded skills of web developers.As developers, this is a scope to focus on more, as the better the user interface and user experience is, better is the developers work.",
+      "One of the most demanded skills of web developers. As developers, this is a scope to focus on more, as the better the user interface and user experience is, better is the developers work.",
     images: [xd, figma],
   },
 ];
