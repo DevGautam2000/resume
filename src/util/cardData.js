@@ -53,7 +53,7 @@ const cards = [
     id: 5,
     name: "Web Scraping",
     description:
-      "One of the most interesting subjects of todays development processes. This is s grey area to work on and is largely based on data fetch and analysis.",
+      "One of the most interesting subjects of todays development processes. This is a grey area to work on and is largely based on data fetch and analysis.",
     images: [python, postman, selenium, java],
   },
   {
