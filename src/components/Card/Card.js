@@ -10,7 +10,7 @@ function Card({ name, description, images }) {
           <img className="card__img" key={index} src={image} alt="" />
         ))}
       </div>
-      <div className="card__popup">{description}</div>
+      <div className="card__overlay">{description}</div>
     </div>
   );
 }

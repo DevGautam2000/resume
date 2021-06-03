@@ -29,17 +29,19 @@ const Projects = () => {
 
             <p className="project__description">{description}</p>
 
-            <a
-              href={source_code}
-              className="project__overlay"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <span>
-                source
-                <img id="project__src__img" src={source} alt="" />
-              </span>
-            </a>
+            <div className="project__overlay">
+              <a
+                href={source_code}
+                style={{ color: "transparent" }}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span>
+                  source
+                  <img id="project__src__img" src={source} alt="" />
+                </span>
+              </a>
+            </div>
 
             <a
               href={source_code}
