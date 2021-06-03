@@ -6,13 +6,8 @@ import "./Body.css";
 const Body = () => {
   return (
     <div className="body__main">
-      {cards.map((card) => (
-        <Card
-          key={card.id}
-          name={card.name}
-          images={card.images}
-          description={card.description}
-        />
+      {cards.map(({ id, name, images, description }) => (
+        <Card key={id} name={name} images={images} description={description} />
       ))}
     </div>
   );
