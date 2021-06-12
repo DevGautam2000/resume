@@ -29,7 +29,7 @@ const projects = [
     description:
       "An Android/Web application made with Kotlin/React.js for the students of Sikkim Manipal University to get the results and gpa in a formatted view.",
     tech_stacks: [android, kotlin, react, javascript],
-    source_code: "https://github.com/DevGautam2000/Results",
+    source_code: "https://github.com/DevGautam2000/results-web",
   },
   {
     id: 4,
