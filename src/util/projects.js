@@ -25,19 +25,35 @@ const projects = [
   },
   {
     id: 3,
-    name: "Results and Results Web",
+    name: "Results",
     description:
-      "An Android/Web application made with Kotlin/React.js for the students of Sikkim Manipal University to get the results and gpa in a formatted view.",
-    tech_stacks: [android, kotlin, react, javascript],
-    source_code: "https://github.com/DevGautam2000/results-web",
+      "An Android application made with Kotlin for the students of Sikkim Manipal University to get the results and gpa in a formatted view.",
+    tech_stacks: [android, kotlin],
+    source_code: "https://github.com/DevGautam2000/Results",
   },
   {
     id: 4,
+    name: "Results Web",
+    description:
+      "The Web application for the Results application made with React.js",
+    tech_stacks: [react, javascript],
+    source_code: "https://github.com/DevGautam2000/results-web",
+  },
+  {
+    id: 5,
     name: "Info Scraper",
     description:
       "An automated web scraper made with BeautifulSoup and Selenium that scrapes a particular web site to collect public information and handle data collected.The scraper also handles and flushes errors.",
     tech_stacks: [python, selenium],
     source_code: "https://github.com/DevGautam2000/infoScraper",
+  },
+  {
+    id: 6,
+    name: "GP Fetcher",
+    description:
+      "A python library that fetches a users public repositories as a JSON file to be used in portfolio websites.",
+    tech_stacks: [python],
+    source_code: "https://github.com/DevGautam2000/gp-fetcher",
   },
 ];
 

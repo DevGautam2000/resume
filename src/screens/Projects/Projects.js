@@ -6,8 +6,9 @@ import source from "../../assets/source.svg";
 
 const Projects = () => {
   return (
+    <>
+  <Nav bg={{ backgroundColor: "rgba(114, 111, 111, 0.9)" }} />
     <div className="project__main">
-      <Nav bg={{ backgroundColor: "rgba(114, 111, 111, 0.9)" }} />
 
       <div className="project__box">
         {projects.map(({ id, name, description, tech_stacks, source_code }) => (
@@ -58,6 +59,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
