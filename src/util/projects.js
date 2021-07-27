@@ -55,6 +55,21 @@ const projects = [
     tech_stacks: [python],
     source_code: "https://github.com/DevGautam2000/gp-fetcher",
   },
+  {
+    id: 7,
+    name: "Ebsite",
+    description:
+      "An e-commerce website made with React and firebase. This was a team project with ",
+    tech_stacks: [javascript],
+    source_code: "https://github.com/DevGautam2000/ebsite",
+  },
+  {
+    id: 8,
+    name: "Resume",
+    description: "Just a portfolio site for myself.",
+    tech_stacks: [javascript],
+    source_code: "https://github.com/DevGautam2000/resume",
+  },
 ];
 
 export default projects;
