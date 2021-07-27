@@ -165,7 +165,7 @@
   .project__box {
     grid-template-columns: repeat(1, 1fr);
     height: fit-content;
-    width: 80vw;
+    width: 100vw;
     position: absolute;
     top: -10%;
     left: 50%;
