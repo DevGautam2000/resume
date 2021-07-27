@@ -39,7 +39,7 @@ const Projects = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      @rishabhprasad225
+                      @rishabhprasad255
                     </a>
                   ) : null}
                 </p>
