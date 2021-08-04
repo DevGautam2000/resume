@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import Pdf from "../../assets/cv.pdf";
+import Pdf from "../../assets/resume.pdf";
 
 function Nav({ bg, text }) {
   const onResumeClick = () => {
