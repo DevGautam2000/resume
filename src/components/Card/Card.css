@@ -5,9 +5,9 @@
   flex-direction: column;
   width: 350px;
   height: 250px;
-  background: rgb(255, 251, 251);
+  background: white;
   border-radius: 8px;
-  box-shadow: 2px 2px 8px rgb(228, 223, 223);
+  box-shadow: 0 2px 28px #eee;
   padding: 20px;
   margin: 15px;
   cursor: pointer;

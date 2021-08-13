@@ -7,6 +7,7 @@ function Nav({ bg, text }) {
   const onResumeClick = () => {
     window.open(Pdf);
   };
+
   return (
     <div className="nav__container" style={bg}>
       <Link to="/" className="nav__list">

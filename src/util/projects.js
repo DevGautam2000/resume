@@ -60,14 +60,14 @@ const projects = [
     name: "Ebsite",
     description:
       "An e-commerce website made with React and firebase. This was a team project with ",
-    tech_stacks: [javascript],
+    tech_stacks: [javascript, react],
     source_code: "https://github.com/DevGautam2000/ebsite",
   },
   {
     id: 8,
     name: "Resume",
     description: "Just a portfolio site for myself.",
-    tech_stacks: [javascript],
+    tech_stacks: [javascript, react],
     source_code: "https://github.com/DevGautam2000/resume",
   },
 ];
