@@ -55,7 +55,7 @@ const Home = () => {
 
       {/* body */}
       <div id="about" className="home__body" ref={bodyRef}>
-        <h3>Here is what I work on.</h3>
+        <h3>Glimpse to Tech Stacks</h3>
         <Body />
       </div>
 
