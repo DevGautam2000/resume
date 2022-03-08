@@ -16,8 +16,8 @@ const names = [
   "gpfetcher",
   "ebsite",
   "resume",
-  "reacting",
-  "leetapi"
+  "leetapi",
+  "reacting"
 ];
 
 const projects = [
