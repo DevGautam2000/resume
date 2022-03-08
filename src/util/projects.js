@@ -16,7 +16,8 @@ const names = [
   "gpfetcher",
   "ebsite",
   "resume",
-  "reacting"
+  "reacting",
+  "leetapi"
 ];
 
 const projects = [
@@ -34,7 +35,7 @@ const projects = [
     id: 2,
     name: "GPA Calc",
     description:
-      "An Android application made with Java to calculate the gpa of exam performance if following the 10 point grading formula. ",
+      "An Android application made with Java to calculate the gpa if following the 10 point grading formula. ",
     tech_stacks: [android, java],
     source_code: "https://github.com/DevGautam2000/GPAcalc",
     preview:"",
@@ -44,7 +45,7 @@ const projects = [
     id: 3,
     name: "Results",
     description:
-      "The Web application for the Results application made with React.js",
+      "The Results application for the students of Sikkim Manipal University(Technology).",
     tech_stacks: [react, javascript,android,kotlin],
     source_code: "https://github.com/DevGautam2000/results-web",
     preview:"https://results.inginer.me/",
@@ -96,7 +97,7 @@ const projects = [
     tech_stacks: [javascript,html],
     source_code: "https://github.com/DevGautam2000/leetcode-api",
     preview:"https://leetapi.inginer.me/",
-    img_src:"https://user-images.githubusercontent.com/77929632/156883831-c9a1bf00-68f6-4bc6-852c-a81f766ed840.png"
+    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[7]}.png`
   },
   {
     id: 9,
@@ -105,7 +106,7 @@ const projects = [
     tech_stacks: [bash],
     source_code: "https://github.com/DevGautam2000/leetcode-api",
     preview:"",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[7]}.png`
+    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[8]}.png`
   },
 ];
 
