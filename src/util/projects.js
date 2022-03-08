@@ -45,7 +45,7 @@ const projects = [
     id: 3,
     name: "Results",
     description:
-      "The Results application for the students of Sikkim Manipal University(Technology).",
+      "The Results application for the students of Sikkim Manipal Institute of Technology.",
     tech_stacks: [react, javascript,android,kotlin],
     source_code: "https://github.com/DevGautam2000/results-web",
     preview:"https://results.inginer.me/",
