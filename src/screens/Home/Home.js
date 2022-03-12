@@ -93,7 +93,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <footer>2021 © Gautam Chandra Saha</footer>
+        <footer>{new Date().getFullYear()} © Gautam Chandra Saha</footer>
       </div>
     </div>
   );
