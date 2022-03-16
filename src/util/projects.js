@@ -20,6 +20,8 @@ const names = [
   "reacting"
 ];
 
+const githubUser = "https://github.com/DevGautam2000"
+const githubRaw = "https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets"
 const projects = [
   {
     id: 1,
@@ -27,9 +29,9 @@ const projects = [
     description:
       "A java library built with Gradle and Java 11. This library is made to reduce the verbose code style of java programs ",
     tech_stacks: [java],
-    source_code: "https://github.com/DevGautam2000/GScript",
+    source_code: `${githubUser}/GScript`,
     preview:"",
-    img_src: `https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[0]}.png`
+    img_src: `${githubRaw}/${names[0]}.png`
   },
   {
     id: 2,
@@ -37,9 +39,9 @@ const projects = [
     description:
       "An Android application made with Java to calculate the gpa if following the 10 point grading formula. ",
     tech_stacks: [android, java],
-    source_code: "https://github.com/DevGautam2000/GPAcalc",
+    source_code: `${githubUser}/GPAcalc`,
     preview:"",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[1]}.png`
+    img_src:`${githubRaw}/${names[1]}.png`
   },
   {
     id: 3,
@@ -47,9 +49,9 @@ const projects = [
     description:
       "The Results application for the students of Sikkim Manipal Institute of Technology.",
     tech_stacks: [react, javascript,android,kotlin],
-    source_code: "https://github.com/DevGautam2000/results-web",
+    source_code: `${githubUser}/results-web`,
     preview:"https://results.inginer.me/",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[2]}.png`
+    img_src:`${githubRaw}/${names[2]}.png`
   },
   {
     id: 4,
@@ -57,9 +59,9 @@ const projects = [
     description:
       "An automated web scraper made with BeautifulSoup and Selenium that scrapes public information and handle data collected.",
     tech_stacks: [python, selenium],
-    source_code: "https://github.com/DevGautam2000/infoScraper",
+    source_code: `${githubUser}/infoScraper`,
     preview:"",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[3]}.png`
+    img_src:`${githubRaw}/${names[3]}.png`
   },
   {
     id: 5,
@@ -67,9 +69,9 @@ const projects = [
     description:
       "A python library that fetches a users public repositories as a JSON file to be used in portfolio websites.",
     tech_stacks: [python],
-    source_code: "https://github.com/DevGautam2000/gp-fetcher",
+    source_code: `${githubUser}/gp-fetcher`,
     preview:"https://pypi.org/project/gpfetcher/",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[4]}.png`
+    img_src:`${githubRaw}/${names[4]}.png`
   },
   {
     id: 6,
@@ -77,36 +79,36 @@ const projects = [
     description:
       "An e-commerce website made with React and firebase. This was a team project with ",
     tech_stacks: [javascript, react],
-    source_code: "https://github.com/DevGautam2000/ebsite",
+    source_code: `${githubUser}/ebsite`,
     preview:"http://ebsite.vercel.app/",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[5]}.png`
+    img_src:`${githubRaw}/${names[5]}.png`
   },
   {
     id: 7,
     name: "Resume",
     description: "Just a portfolio site for myself.",
     tech_stacks: [javascript, react],
-    source_code: "https://github.com/DevGautam2000/resume",
+    source_code: `${githubUser}/resume`,
     preview:"https://inginer.me/",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[6]}.png`
+    img_src:`${githubRaw}/${names[6]}.png`
   },
   {
     id: 8,
     name: "LeetApi",
     description: "An API for users who want to integrate their leetcode profile on their portfolios.",
     tech_stacks: [javascript,html],
-    source_code: "https://github.com/DevGautam2000/leetcode-api",
+    source_code: `${githubUser}/leetcode-api`,
     preview:"https://leetapi.inginer.me/",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[7]}.png`
+    img_src:`${githubRaw}/${names[7]}.png`
   },
   {
     id: 9,
     name: "ReactIng",
     description: "A cli tool for React developers to save their time generating folder structures and files.",
     tech_stacks: [bash],
-    source_code: "https://github.com/DevGautam2000/leetcode-api",
+    source_code: `${githubUser}/React_Ing`,
     preview:"",
-    img_src:`https://raw.githubusercontent.com/DevGautam2000/DevGautam2000/main/assets/${names[8]}.png`
+    img_src:`${githubRaw}/${names[8]}.png`
   },
 ];
 
