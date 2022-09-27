@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../../components/Navbar/Nav";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./Projects.css";
 import projects from "../../util/projects";
 import source from "../../assets/source.svg";

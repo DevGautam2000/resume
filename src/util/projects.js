@@ -17,7 +17,9 @@ const names = [
   "ebsite",
   "resume",
   "leetapi",
-  "reacting"
+  "reacting",
+  "cabit",
+  "foodon"
 ];
 
 const githubUser = "https://github.com/DevGautam2000"
@@ -109,6 +111,33 @@ const projects = [
     source_code: `${githubUser}/React_Ing`,
     preview:"",
     img_src:`${githubRaw}/${names[8]}.png`
+  },
+  {
+    id: 10,
+    name: "CabIt",
+    description: "A cab booking website.",
+    tech_stacks: [javascript, react,java],
+    source_code: "https://github.com/DevGautam2000/cabit-frontend",
+    preview:"",
+    img_src:`${githubRaw}/${names[9]}.jpg`
+  },
+  {
+    id: 11,
+    name: "FoodOn",
+    description: "A food delivery app with AI chatbot and recommendation system.",
+    tech_stacks: [javascript, react,python],
+    source_code: "https://github.com/DevGautam2000/foodon-frontend",
+    preview:"",
+    img_src:`${githubRaw}/${names[10]}.jpg`
+  },
+  {
+    id: 12,
+    name: "Guitar Tuner",
+    description: "A simple guitar tuner made with p5js and ml5js.",
+    tech_stacks: [javascript],
+    source_code: "https://github.com/DevGautam2000/guitar-tuner-p5-ml5",
+    preview:"",
+    img_src:`https://raw.githubusercontent.com/DevGautam2000/guitar-tuner-p5-ml5/master/assets/demo.png`
   },
 ];
 
