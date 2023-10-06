@@ -52,7 +52,7 @@ const projects = [
       "The Results application for the students of Sikkim Manipal Institute of Technology.",
     tech_stacks: [react, javascript,android,kotlin],
     source_code: `${githubUser}/results-web`,
-    preview:"https://results.inginer.me/",
+    preview:"https://results-web-devgautam2000.vercel.app",
     img_src:`${githubRaw}/${names[2]}.png`
   },
   {
@@ -91,7 +91,7 @@ const projects = [
     description: "Just a portfolio site for myself.",
     tech_stacks: [javascript, react],
     source_code: `${githubUser}/resume`,
-    preview:"https://inginer.me/",
+    preview:"https://resume-devgautam2000.vercel.app",
     img_src:`${githubRaw}/${names[6]}.png`
   },
   {
@@ -100,7 +100,7 @@ const projects = [
     description: "An API for users who want to integrate their leetcode profile on their portfolios.",
     tech_stacks: [javascript,html],
     source_code: `${githubUser}/leetcode-api`,
-    preview:"https://leetapi.inginer.me/",
+    preview:"https://leetcode-api.vercel.app",
     img_src:`${githubRaw}/${names[7]}.png`
   },
   {
